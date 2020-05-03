@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
+
+        <title>Brawlhalla stuff</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav nav mr-auto" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="wep-spawns-tab" data-toggle="tab" href="#wep-spawns" role="tab" aria-controls="wep-spawns" aria-selected="false">Weapon Spawns</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sites</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="http://corehalla.com/" target="_blank">Corehalla</a>
+                            <a class="dropdown-item" href="https://brawlmance.com/" target="_blank">Brawlmance</a>
+                            <a class="dropdown-item" href="https://www.brawlhalla.com/rankings/1v1/" target="_blank">1v1 rankings</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+      
+    <main role="main">
+        
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="tab-content container" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <h1>Whoa hi there</h1>
+                    <p>
+                        This low effort site has been glued together in about few hours to share 2v2 strategies with my team mates.
+                        There is high chance that you ended up here on an accident. In that case please be on your way since I doubt you will find
+                        anything useful here.
+                    </p>
+                    <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+                </div>
+                <div class="tab-pane fade" id="wep-spawns" role="tabpanel" aria-labelledby="wep-spawns-tab">
+                    <h1>Weapon Spawns</h1>
+                    <p>
+                        This section lists 2v2 maps with highlighted players and weapons spawns.
+                    </p>
+
+                    <ul class="nav nav-tabs" id="wep-spawns-tablist" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="wep-spawn-map-apocalypse-tab" data-toggle="tab" href="#wep-spawn-map-apocalypse" role="tab" aria-controls="wep-spawn-map-apocalypse" aria-selected="true">Apocalypse</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="wep-spawn-map-shipwreck-tab" data-toggle="tab" href="#wep-spawn-map-shipwreck" role="tab" aria-controls="wep-spawn-map-shipwreck" aria-selected="false">Shipwreck Falls</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="wep-spawns-tablist-content">
+                        <div class="tab-pane fade show active" id="wep-spawn-map-apocalypse" role="tabpanel" aria-labelledby="wep-spawn-map-apocalypse-tab">
+                            <img class="img-fluid" alt="Apocalypse" src="/resources/img/wep-spawns/maps/apocalypse.jpg" />
+                        </div>
+                        <div class="tab-pane fade" id="wep-spawn-map-shipwreck" role="tabpanel" aria-labelledby="wep-spawn-map-shipwreck-tab">
+                            <img class="img-fluid" alt="Apocalypse" src="/resources/img/wep-spawns/maps/shipwreck-falls.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <hr>
+        </div>
+    </main>
+    
+    <footer class="container">
+        <p>React? Vue? Angular? Forget that... All you need is Bootstrap and jQuery like its 2011. ;D</p>
+    </footer>
+
+    <script src="/resources/js/jquery-3.5.0.min.js"></script>
+    <script src="/resources/js/popper.min.js"></script>
+    <script src="/resources/js/bootstrap.min.js"></script>
+  </body>
+</html>
